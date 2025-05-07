@@ -1,0 +1,12 @@
+```toml
+   [server]
+   headless = true
+   enableCORS = false
+   enableXsrfProtection = false
+   port = 8501
+   
+   [browser]
+   serverAddress = "0.0.0.0"
+   serverPort = 8501
+   gatherUsageStats = false
+   ```
