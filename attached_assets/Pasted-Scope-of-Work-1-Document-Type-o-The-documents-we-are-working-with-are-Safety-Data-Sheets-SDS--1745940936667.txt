@@ -1,0 +1,40 @@
+Scope of Work:
+1.	Document Type:
+o	The documents we are working with are Safety Data Sheets (SDS) in PDF format. These documents follow various regulatory standards such as GHS, OSHA, and REACH.
+2.	Data Extraction Requirements:
+o	The system should automatically extract the following key data from the SDS documents:
+•	Product Name
+•	CAS Number
+•	Chemical Identification
+•	Hazard Classification (including categories like flammable, skin irritation, toxicity)
+•	Precautionary Statements (including advice on handling, storage, personal protective equipment)
+•	First Aid Measures (for skin contact, eye contact, inhalation, ingestion)
+•	Supplier Information (company name, emergency contact, location)
+•	Environmental Hazards (if applicable)
+•	Regulatory Compliance Information (REACH, OSHA, GHS labels, etc.)
+3.	Register Format:
+o	The extracted data should be formatted into a structured register (such as an Excel sheet ) that includes the following columns:
+•	Chemical Name
+•	CAS Number
+•	Hazard Classification
+•	Safety Instructions (including first aid measures, precautions)
+•	Supplier Information
+•	Regulatory Information (REACH, OSHA, GHS)
+•	Last Updated Date
+o	This register should be easily filterable and sortable by any of the above columns.
+4.	Automation Requirements:
+o	The tool should allow for bulk processing of multiple SDS documents (PDFs) at once.
+o	The solution should be capable of processing both machine-readable and scanned PDF files. For scanned documents, OCR capabilities should be integrated.
+5.	Customizable Output:
+o	The solution should offer flexibility in the output format (Excel, CSV) to accommodate different user preferences and integration needs.
+o	Custom fields or additional data extraction (if necessary) should be supported, with the ability to modify extraction templates.
+6.	User Interface:
+o	The tool should be user-friendly and allow easy uploading of SDS documents.
+o	The system should provide an intuitive dashboard for managing and reviewing the extracted data, allowing users to edit, update, or delete records as necessary.
+o	Users should be able to generate reports directly from the extracted data in a formatted register.
+7.	Compliance :
+o	The solution must comply with relevant regulations (e.g., REACH, OSHA, GHS) and ensure data security for sensitive chemical information.
+ 
+Expected Deliverables:
+1.	A fully functional system capable of automatically extracting data from SDS documents and creating a structured register.
+2.	A user interface for uploading, managing, and reviewing SDS data.
